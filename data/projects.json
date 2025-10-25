@@ -1,0 +1,77 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "TravelLogistic Platform",
+      "description": "A comprehensive full-stack platform for managing transportation logistics with real-time tracking and multi-role interfaces for clients, drivers, managers, and administrators.",
+      "shortDescription": "Full-stack MERN platform for real-time trip management and GPS tracking.",
+      "tech": "MongoDB, Express.js, React, Next.js, Node.js",
+      "image": "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?w=800&h=450&fit=crop",
+      "problem": "Transportation companies needed a unified platform to manage multiple stakeholders (clients, drivers, managers, administrators) with real-time trip tracking and secure communication capabilities.",
+      "solution": "Developed a full-stack TravelLogistic platform using the MERN stack with role-based access control, real-time GPS tracking, instant messaging system, and comprehensive trip management features. The platform provides different interfaces tailored to each user role while maintaining data security and real-time synchronization.",
+      "techUsed": [
+        { "name": "MongoDB", "icon": "database" },
+        { "name": "Express.js", "icon": "terminal" },
+        { "name": "React", "icon": "code" },
+        { "name": "Next.js", "icon": "bolt" },
+        { "name": "Node.js", "icon": "hub" },
+        { "name": "GPS Integration", "icon": "location_on" }
+      ],
+      "images": [
+        "https://imgs.search.brave.com/UCENYRTqD5DC_oIG_UXnbJ9KES7z9Jmbmz-iwQfbWxA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS12ZWN0b3Iv/aGFwcHktY291cGxl/cy10cmF2ZWxpbmct/ZXVyb3BlLXRha2lu/Zy1waG90by1pc29s/YXRlZC1mbGF0LXZl/Y3Rvci1pbGx1c3Ry/YXRpb24tY2FydG9v/bi1ncm91cC1wZW9w/bGUtd2l0aC1iYWNr/cGFjay1jYW1lcmEt/bWFwLXZhY2F0aW9u/LXRvdXJpc20tY29u/Y2VwdF83NDg1NS0x/MzEwNS5qcGc_c2Vt/dD1haXNfaHlicmlk/Jnc9NzQwJnE9ODA",
+        "https://imgs.search.brave.com/jcgAoRoKTVyzFKIcPEb69htmJfP8xNf-XVBml8BcCis/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvODk1/MDgxODI0L3Bob3Rv/L3RvdXJpc3Qtdmlz/aXRpbmctc3BhaW4u/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PVZGbHV3ck1yTURZ/b3gxVzg4ZV92Tjl5/TnA2N2lVTmEtVnVi/OTZoZGg4Tjg9"
+      ],
+      "githubUrl": "https://github.com/ismailbaoud",
+      "liveUrl": "#",
+      "showGithub": false,
+      "showLiveDemo": false
+    },
+    {
+      "id": 2,
+      "title": "Youdemy - E-Learning Platform",
+      "description": "A full-stack course management platform designed for students, teachers, and administrators with role-based functionalities and seamless user experience.",
+      "shortDescription": "E-learning platform with role-based access for students, teachers, and admins.",
+      "tech": "PHP, MySQL, JavaScript, Tailwind CSS",
+      "image": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=800&h=450&fit=crop",
+      "problem": "Educational institutions needed a comprehensive platform to manage courses, students, and teachers with different access levels and functionalities for each role.",
+      "solution": "Built a full-stack e-learning platform with PHP/MySQL backend handling authentication and course management. Created a responsive frontend using JavaScript and Tailwind CSS ensuring smooth user experience across all devices. Implemented role-based access control for students, teachers, and administrators with tailored dashboards and features for each user type.",
+      "techUsed": [
+        { "name": "PHP", "icon": "code" },
+        { "name": "MySQL", "icon": "database" },
+        { "name": "JavaScript", "icon": "javascript" },
+        { "name": "Tailwind CSS", "icon": "style" }
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=1200&h=675&fit=crop",
+        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&h=675&fit=crop"
+      ],
+      "githubUrl": "https://github.com/Youcode-Classe-E-2024-2025/ismail_baoud-youdemy",
+      "liveUrl": "#",
+      "showGithub": true,
+      "showLiveDemo": false
+    },
+    {
+      "id": 3,
+      "title": "Insurance Management Console",
+      "description": "A Java 8 console application for digitizing insurance operations with layered architecture and efficient data processing.",
+      "shortDescription": "Java console application for streamlining insurance operations.",
+      "tech": "Java 8, JDBC, Streams API, Lambda Expressions",
+      "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=450&fit=crop",
+      "problem": "Insurance companies needed to digitize their operations and move away from manual paper-based processes. The solution required efficient data processing and a maintainable codebase.",
+      "solution": "Developed a Java 8 console application with a clean layered architecture (Service/DAO pattern) using JDBC for database operations. Leveraged Java 8 Streams and Lambda expressions for efficient data processing and business logic implementation. The application provides a maintainable and scalable foundation for insurance operations management.",
+      "techUsed": [
+        { "name": "Java 8", "icon": "code" },
+        { "name": "JDBC", "icon": "database" },
+        { "name": "Streams API", "icon": "water_drop" },
+        { "name": "Lambda", "icon": "function" }
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&h=675&fit=crop"
+      ],
+      "githubUrl": "https://github.com/ismailbaoud/Gestion-de-contrats-d-assurance",
+      "liveUrl": "#",
+      "showGithub": true,
+      "showLiveDemo": false
+    }
+  ]
+}
