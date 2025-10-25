@@ -1,0 +1,51 @@
+{
+  "techStack": [
+    {
+      "category": "Backend",
+      "items": [
+        { "name": "Java", "icon": "coffee" },
+        { "name": "Spring Boot", "icon": "eco" },
+        { "name": "Spring Security", "icon": "lock" },
+        { "name": "Spring Cloud", "icon": "cloud" },
+        { "name": "JPA/Hibernate", "icon": "storage" },
+        { "name": "Laravel", "icon": "code" },
+        { "name": "Node.js", "icon": "hexagon" },
+        { "name": "Express.js", "icon": "bolt" }
+      ]
+    },
+    {
+      "category": "Frontend",
+      "items": [
+        { "name": "React", "icon": "filter_vintage" },
+        { "name": "Angular", "icon": "change_history" },
+        { "name": "Next.js", "icon": "flash_on" },
+        { "name": "TypeScript", "icon": "code" },
+        { "name": "NgRx/NGXS", "icon": "account_tree" },
+        { "name": "Tailwind CSS", "icon": "palette" },
+        { "name": "Bootstrap", "icon": "grid_view" }
+      ]
+    },
+    {
+      "category": "Databases",
+      "items": [
+        { "name": "PostgreSQL", "icon": "database" },
+        { "name": "MySQL", "icon": "storage" },
+        { "name": "MongoDB", "icon": "description" }
+      ]
+    },
+    {
+      "category": "DevOps & Tools",
+      "items": [
+        { "name": "Docker", "icon": "widgets" },
+        { "name": "CI/CD", "icon": "sync" },
+        { "name": "Microservices", "icon": "hub" },
+        { "name": "Git/GitHub", "icon": "source" },
+        { "name": "JUnit/Mockito", "icon": "bug_report" },
+        { "name": "Cypress", "icon": "verified" },
+        { "name": "Postman", "icon": "send" },
+        { "name": "Jira", "icon": "check_box" },
+        { "name": "Figma", "icon": "draw" }
+      ]
+    }
+  ]
+}
