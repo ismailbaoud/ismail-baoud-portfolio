@@ -1,36 +1,183 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Full Stack Developer Portfolio
 
-## Getting Started
+A modern, responsive portfolio website built with Next.js 15, TypeScript, and Tailwind CSS. This portfolio showcases all sections from the original HTML designs converted into reusable React components.
 
-First, run the development server:
+## 🚀 Features
 
+- **Hero Section** - Eye-catching introduction with rotating text animation
+- **About Section** - Philosophy and core values with interactive icons
+- **Career Journey** - Interactive timeline displaying work experience and education
+- **Tech Stack** - Comprehensive display of technical skills organized by category
+- **Featured Projects** - Expandable project cards with detailed case studies
+- **Contact Form** - Functional contact form with validation
+- **Responsive Design** - Fully responsive across all device sizes
+- **Smooth Scrolling** - Seamless navigation between sections
+- **Dark Mode Toggle** - Light/dark theme switching capability
+
+## 🛠️ Technologies Used
+
+- **Framework**: Next.js 15 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4
+- **Fonts**: Google Fonts (Inter, Plus Jakarta Sans)
+- **Icons**: Material Symbols Outlined
+
+## 📦 Installation
+
+1. Navigate to the project directory:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+cd portfolio
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open your browser and visit:
+```
+http://localhost:3000
+```
 
-## Learn More
+## 📁 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+portfolio/
+├── app/
+│   ├── layout.tsx          # Root layout with metadata
+│   ├── page.tsx            # Main page integrating all sections
+│   └── globals.css         # Global styles and animations
+├── components/
+│   ├── Header.tsx          # Navigation header
+│   ├── HeroSection.tsx     # Hero section with animated text
+│   ├── AboutSection.tsx    # About/Philosophy section
+│   ├── CareerJourney.tsx   # Timeline component
+│   ├── TechStack.tsx       # Tech skills display
+│   ├── FeaturedProjects.tsx # Projects showcase
+│   ├── ContactSection.tsx  # Contact form
+│   └── Footer.tsx          # Footer with social links
+└── public/                 # Static assets
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Customization
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Update Personal Information
 
-## Deploy on Vercel
+Edit the content in each component file:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Name & Title**: `components/HeroSection.tsx`
+- **About Text**: `components/AboutSection.tsx`
+- **Work Experience**: `components/CareerJourney.tsx` (update `timelineData` array)
+- **Tech Skills**: `components/TechStack.tsx` (update `techStack` array)
+- **Projects**: `components/FeaturedProjects.tsx` (update `projects` array)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Update Colors
+
+Colors are defined in `app/globals.css` using CSS custom properties:
+
+```css
+:root {
+  --primary: #34d399;
+  --background: #f8fafc;
+  --text-dark: #0f172a;
+  /* ... more colors */
+}
+```
+
+## 📝 Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm start` - Start production server
+- `npm run lint` - Run ESLint
+
+## 🌐 Deployment
+
+### Deploy to Vercel (Recommended)
+
+1. Push your code to GitHub
+2. Visit [vercel.com](https://vercel.com)
+3. Import your repository
+4. Vercel will automatically detect Next.js and deploy
+
+### Build for Production
+
+```bash
+npm run build
+npm start
+```
+
+## ✨ Sections Overview
+
+### 1. Hero Section
+- Animated rotating job titles
+- Call-to-action buttons
+- Professional headshot with glow effect
+
+### 2. About Section
+- Personal philosophy
+- Core values with interactive icons
+- Responsive grid layout
+
+### 3. Career Journey
+- Vertical timeline design
+- Alternating left/right layout (desktop)
+- Hover effects on timeline items
+
+### 4. Tech Stack
+- Organized by category (Backend, Frontend, Databases, DevOps)
+- Clickable tech items with icons
+- Hover animations
+
+### 5. Featured Projects
+- Project cards with images
+- Expandable detailed case studies
+- Tech stack badges
+- Links to GitHub and live demos
+
+### 6. Contact Section
+- Validated contact form
+- Responsive input fields
+- Form submission handling
+
+## 🔧 Configuration
+
+The project uses Next.js App Router with:
+- TypeScript for type safety
+- Tailwind CSS v4 for styling
+- Client-side components for interactivity
+- Smooth scroll behavior
+- Optimized fonts loading
+
+## 📱 Responsive Breakpoints
+
+- Mobile: < 640px
+- Tablet: 640px - 1024px
+- Desktop: > 1024px
+
+## 🎯 Next Steps
+
+1. Replace placeholder images with your own
+2. Update social media links in `Footer.tsx`
+3. Implement actual form submission in `ContactSection.tsx`
+4. Add your real projects and work experience
+5. Customize colors to match your brand
+6. Add analytics (Google Analytics, Vercel Analytics)
+7. Set up a custom domain
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+## 🤝 Contributing
+
+Feel free to fork this project and customize it for your own portfolio!
+
+---
+
+Built with ❤️ using Next.js and Tailwind CSS
