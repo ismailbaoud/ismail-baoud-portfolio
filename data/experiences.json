@@ -1,0 +1,22 @@
+{
+  "experiences": [
+    {
+      "year": "2024-Present",
+      "title": "Java Developer Specialist",
+      "company": "YouCode - UM6P (Second Year)",
+      "icon": "code"
+    },
+    {
+      "year": "May 15 – June 15, 2025",
+      "title": "Full Stack Developer - Internship",
+      "company": "L'workshop (Startup)",
+      "icon": "work"
+    },
+    {
+      "year": "2024-2026",
+      "title": "Web Development Student",
+      "company": "YouCode - UM6P",
+      "icon": "school"
+    }
+  ]
+}
