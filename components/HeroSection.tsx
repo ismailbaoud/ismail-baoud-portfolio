@@ -15,7 +15,8 @@ export default function HeroSection() {
                 <div className="text-rotator relative">
                   <span>Full Stack Developer</span>
                   <span>Java Specialist</span>
-                  <span>Spring Boot Expert</span>
+                  <span>Java script Specialist</span>
+                  <span>Spring Boot Specialist</span>
                 </div>
               </div>
             </div>
