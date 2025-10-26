@@ -66,7 +66,8 @@
         { "name": "Lambda", "icon": "function" }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&h=675&fit=crop"
+        "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&h=675&fit=crop",
+        "https://imgs.search.brave.com/RS4aWhZgl04IISnw5P7w3j-_rynyubdiC2W5-f00pho/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS12ZWN0/b3IvaGVhbHRoY2Fy/ZS1pbnN1cmFuY2Vf/NzczMTg2LTExNTAu/anBnP3NlbXQ9YWlz/X2h5YnJpZCZ3PTc0/MCZxPTgw"
       ],
       "githubUrl": "https://github.com/ismailbaoud/Gestion-de-contrats-d-assurance",
       "liveUrl": "#",
