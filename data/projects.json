@@ -28,6 +28,168 @@
     },
     {
       "id": 2,
+      "title": "NgResto - Digital Restaurant Solution",
+      "description": "A modern, responsive digital menu and ordering application built with Angular 19 and NgRx, designed to provide an exceptional dining experience for restaurant customers. Features full state management, real-time cart updates, order history, and dark mode support.",
+      "shortDescription": "Angular 19 restaurant ordering app with NgRx state management and dark mode.",
+      "tech": "Angular 19, NgRx, RxJS, Tailwind CSS, TypeScript",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=450&fit=crop",
+      "problem": "Restaurants needed a modern digital ordering solution that provides seamless user experience, real-time cart management, and persistent data across sessions. Traditional paper menus lack interactivity and make order management challenging.",
+      "solution": "Built a cutting-edge Angular 19 application with NgRx for centralized state management. Implemented category-based navigation, real-time search, cart persistence with localStorage, and order history tracking. The solution features automatic service fee calculation, dark mode support, and Redux DevTools integration for debugging.",
+      "techUsed": [
+        { "name": "Angular 19", "icon": "change_history" },
+        { "name": "NgRx Store", "icon": "account_tree" },
+        { "name": "RxJS", "icon": "stream" },
+        { "name": "TypeScript", "icon": "code" },
+        { "name": "Tailwind CSS", "icon": "palette" },
+        { "name": "LocalStorage", "icon": "storage" }
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&h=675&fit=crop",
+        "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&h=675&fit=crop"
+      ],
+      "githubUrl": "https://github.com/ismailbaoud/NgResto",
+      "liveUrl": "#",
+      "showGithub": true,
+      "showLiveDemo": false
+    },
+    {
+      "id": 3,
+      "title": "AL-BARAKA Digital Banking Platform",
+      "description": "A secure digital banking platform developed with Spring Boot, offering comprehensive account management, banking operations, and document handling with OAuth2/Keycloak authentication. Features multi-role architecture with operation validation and CUMP pricing.",
+      "shortDescription": "Full-stack Spring Boot banking system with OAuth2 and microservices architecture.",
+      "tech": "Spring Boot, Java 21, PostgreSQL, Keycloak, Angular 18, Docker",
+      "image": "https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?w=800&h=450&fit=crop",
+      "problem": "Banks needed a secure digital platform for managing accounts, validating transactions, and handling documents with proper role-based access control. Large transactions required manual approval workflow.",
+      "solution": "Developed a comprehensive banking platform using Spring Boot 4.0 with dual authentication (JWT and OAuth2/Keycloak). Implemented automatic validation for transactions under 10,000 DH and manual approval workflow for larger amounts. Built separate Angular 18 frontend with role-specific dashboards for clients, agents, and admins. Deployed on DigitalOcean with Docker containerization.",
+      "techUsed": [
+        { "name": "Spring Boot 4.0", "icon": "eco" },
+        { "name": "Java 21", "icon": "coffee" },
+        { "name": "PostgreSQL", "icon": "database" },
+        { "name": "Keycloak", "icon": "lock" },
+        { "name": "Angular 18", "icon": "change_history" },
+        { "name": "Docker", "icon": "widgets" },
+        { "name": "OAuth2", "icon": "security" },
+        { "name": "MapStruct", "icon": "compare_arrows" }
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?w=1200&h=675&fit=crop",
+        "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&h=675&fit=crop"
+      ],
+      "githubUrl": "https://github.com/ismailbaoud/al-baraka",
+      "liveUrl": "#",
+      "showGithub": true,
+      "showLiveDemo": false
+    },
+    {
+      "id": 4,
+      "title": "SmartShop - E-Commerce Management",
+      "description": "A comprehensive shop management platform with automatic loyalty system, multi-payment support, and promo codes. Features CRUD operations for clients, products, orders, and payments with 64 unit tests ensuring code quality.",
+      "shortDescription": "Java Spring Boot e-commerce platform with 4-tier loyalty system.",
+      "tech": "Spring Boot, Java 21, PostgreSQL, Maven, JUnit",
+      "image": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=800&h=450&fit=crop",
+      "problem": "E-commerce businesses needed a robust platform to manage customers, inventory, orders, and payments with an automated loyalty program that rewards repeat customers.",
+      "solution": "Built a full-stack shop management system using Spring Boot with a 4-tier loyalty program (BASIC, SILVER, GOLD, PLATINUM) that automatically upgrades customers based on order count and spending. Implemented CUMP pricing method, multi-payment support, automatic stock management, and promo code validation. Achieved 100% test coverage with 64 unit tests.",
+      "techUsed": [
+        { "name": "Spring Boot", "icon": "eco" },
+        { "name": "Java 21", "icon": "coffee" },
+        { "name": "PostgreSQL", "icon": "database" },
+        { "name": "JPA/Hibernate", "icon": "storage" },
+        { "name": "MapStruct", "icon": "compare_arrows" },
+        { "name": "BCrypt", "icon": "lock" },
+        { "name": "JUnit 5", "icon": "bug_report" },
+        { "name": "Mockito", "icon": "verified" }
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=1200&h=675&fit=crop",
+        "https://images.unsplash.com/photo-1557821552-17105176677c?w=1200&h=675&fit=crop"
+      ],
+      "githubUrl": "https://github.com/ismailbaoud/smartShop",
+      "liveUrl": "#",
+      "showGithub": true,
+      "showLiveDemo": false
+    },
+    {
+      "id": 5,
+      "title": "Eventify - Event Management System",
+      "description": "A Spring Boot application for managing events, users, and registrations with PostgreSQL database. Features Docker deployment, Liquibase migrations, and comprehensive event lifecycle management.",
+      "shortDescription": "Spring Boot event management platform with Docker and Liquibase.",
+      "tech": "Spring Boot, Java 21, PostgreSQL, Docker, Liquibase",
+      "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=450&fit=crop",
+      "problem": "Event organizers needed a centralized system to manage events, track registrations, and handle attendee information efficiently with proper database versioning.",
+      "solution": "Developed an event management platform using Spring Boot 3.5.7 with Liquibase for database migrations. Implemented full CRUD operations for events and registrations, Docker containerization for easy deployment, and Make commands for streamlined development workflow. The system supports event creation, registration management, and attendee tracking.",
+      "techUsed": [
+        { "name": "Spring Boot 3.5", "icon": "eco" },
+        { "name": "Java 21", "icon": "coffee" },
+        { "name": "PostgreSQL 15", "icon": "database" },
+        { "name": "Liquibase", "icon": "sync" },
+        { "name": "Docker", "icon": "widgets" },
+        { "name": "Maven", "icon": "build" }
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1200&h=675&fit=crop",
+        "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=1200&h=675&fit=crop"
+      ],
+      "githubUrl": "https://github.com/ismailbaoud/eventify",
+      "liveUrl": "#",
+      "showGithub": true,
+      "showLiveDemo": false
+    },
+    {
+      "id": 6,
+      "title": "JMLA-LIK Supply Chain Management",
+      "description": "A microservices-based supply chain management system for B2B operations. Features independent services for products, suppliers, orders, and stock movements with CUMP (Weighted Average Cost) pricing method and Docker orchestration.",
+      "shortDescription": "Microservices supply chain platform with CUMP pricing and Docker.",
+      "tech": "Spring Boot, Java 17, PostgreSQL, Docker, Microservices",
+      "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&h=450&fit=crop",
+      "problem": "Wholesalers needed a scalable B2B platform to manage complex supply chains with multiple products, suppliers, and automatic stock tracking using weighted average cost calculation.",
+      "solution": "Architected a microservices system with four independent services: Products (port 8080), Suppliers (8082), Orders (8083), and Stock Movements (8084). Each service communicates via REST APIs using WebClient. Implemented automatic CUMP calculation, real-time stock updates on order delivery, multi-product order support, and full traceability. Deployed with Docker Compose for easy orchestration.",
+      "techUsed": [
+        { "name": "Spring Boot 3", "icon": "eco" },
+        { "name": "Java 17", "icon": "coffee" },
+        { "name": "PostgreSQL", "icon": "database" },
+        { "name": "Docker", "icon": "widgets" },
+        { "name": "WebClient", "icon": "http" },
+        { "name": "Microservices", "icon": "hub" }
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&h=675&fit=crop",
+        "https://images.unsplash.com/photo-1553413077-190dd305871c?w=1200&h=675&fit=crop"
+      ],
+      "githubUrl": "https://github.com/ismailbaoud/JMLA-LIK",
+      "liveUrl": "#",
+      "showGithub": true,
+      "showLiveDemo": false
+    },
+    {
+      "id": 7,
+      "title": "Medical Consultation System",
+      "description": "A comprehensive healthcare management system built with Jakarta EE 10 and Hibernate. Features multi-role dashboards for doctors, nurses, and patients with complete medical records, consultation management, ticket system, and appointment scheduling.",
+      "shortDescription": "Jakarta EE healthcare platform with role-based medical record management.",
+      "tech": "Java 17, Jakarta EE 10, Hibernate, MariaDB, JSP, Tailwind CSS",
+      "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=450&fit=crop",
+      "problem": "Healthcare facilities needed a unified system to manage patient records, consultations, specialist referrals, and appointments with proper role-based access for medical staff.",
+      "solution": "Developed a complete medical consultation platform using Jakarta EE 10 with Hibernate ORM. Implemented nurse dashboard for patient registration with vital signs tracking, consultation management for generalists with diagnostic tools, specialist consultation system with pending/approved workflow, ticket-based queue management, and comprehensive medical file system. Secured with BCrypt password hashing and session-based authentication.",
+      "techUsed": [
+        { "name": "Java 17", "icon": "coffee" },
+        { "name": "Jakarta EE 10", "icon": "eco" },
+        { "name": "Hibernate 7", "icon": "storage" },
+        { "name": "MariaDB", "icon": "database" },
+        { "name": "JSP", "icon": "code" },
+        { "name": "Tailwind CSS", "icon": "palette" },
+        { "name": "BCrypt", "icon": "lock" },
+        { "name": "Maven", "icon": "build" }
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&h=675&fit=crop",
+        "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&h=675&fit=crop"
+      ],
+      "githubUrl": "https://github.com/ismailbaoud/consultation-medicale",
+      "liveUrl": "#",
+      "showGithub": true,
+      "showLiveDemo": false
+    },
+    {
+      "id": 8,
       "title": "Youdemy - E-Learning Platform",
       "description": "A full-stack course management platform designed for students, teachers, and administrators with role-based functionalities and seamless user experience.",
       "shortDescription": "E-learning platform with role-based access for students, teachers, and admins.",
@@ -51,7 +213,7 @@
       "showLiveDemo": false
     },
     {
-      "id": 3,
+      "id": 9,
       "title": "Insurance Management Console",
       "description": "A Java 8 console application for digitizing insurance operations with layered architecture and efficient data processing.",
       "shortDescription": "Java console application for streamlining insurance operations.",
