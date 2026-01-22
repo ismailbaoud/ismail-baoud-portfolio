@@ -1,50 +1,53 @@
 {
   "techStack": [
     {
-      "category": "Backend",
+      "category": "Languages & Frameworks",
       "items": [
+        { "name": "C", "icon": "code" },
         { "name": "Java", "icon": "coffee" },
+        { "name": "Java EE (JEE)", "icon": "eco" },
         { "name": "Spring Boot", "icon": "eco" },
         { "name": "Spring Security", "icon": "lock" },
         { "name": "Spring Cloud", "icon": "cloud" },
-        { "name": "JPA/Hibernate", "icon": "storage" },
+        { "name": "Spring Data JPA", "icon": "storage" },
+        { "name": "Hibernate", "icon": "storage" },
+        { "name": "PHP", "icon": "code" },
         { "name": "Laravel", "icon": "code" },
+        { "name": "JavaScript", "icon": "javascript" },
+        { "name": "TypeScript", "icon": "code" },
+        { "name": "React", "icon": "filter_vintage" },
+        { "name": "Angular", "icon": "change_history" },
+        { "name": "Next.js", "icon": "flash_on" },
         { "name": "Node.js", "icon": "hexagon" },
         { "name": "Express.js", "icon": "bolt" }
       ]
     },
     {
-      "category": "Frontend",
-      "items": [
-        { "name": "React", "icon": "filter_vintage" },
-        { "name": "Angular", "icon": "change_history" },
-        { "name": "Next.js", "icon": "flash_on" },
-        { "name": "TypeScript", "icon": "code" },
-        { "name": "NgRx/NGXS", "icon": "account_tree" },
-        { "name": "Tailwind CSS", "icon": "palette" },
-        { "name": "Bootstrap", "icon": "grid_view" }
-      ]
-    },
-    {
-      "category": "Databases",
+      "category": "Databases & APIs",
       "items": [
         { "name": "PostgreSQL", "icon": "database" },
         { "name": "MySQL", "icon": "storage" },
-        { "name": "MongoDB", "icon": "description" }
+        { "name": "MongoDB", "icon": "description" },
+        { "name": "RESTful APIs", "icon": "api" },
+        { "name": "Swagger", "icon": "description" },
+        { "name": "Postman", "icon": "send" },
+        { "name": "Axios", "icon": "http" }
       ]
     },
     {
-      "category": "DevOps & Tools",
+      "category": "DevOps, Cloud & Tools",
       "items": [
         { "name": "Docker", "icon": "widgets" },
+        { "name": "Docker Compose", "icon": "widgets" },
+        { "name": "Docker Hub", "icon": "cloud_upload" },
+        { "name": "Nginx", "icon": "dns" },
+        { "name": "Git", "icon": "source" },
+        { "name": "GitHub", "icon": "code" },
+        { "name": "GitHub Actions", "icon": "sync" },
         { "name": "CI/CD", "icon": "sync" },
-        { "name": "Microservices", "icon": "hub" },
-        { "name": "Git/GitHub", "icon": "source" },
-        { "name": "JUnit/Mockito", "icon": "bug_report" },
-        { "name": "Cypress", "icon": "verified" },
-        { "name": "Postman", "icon": "send" },
+        { "name": "DigitalOcean", "icon": "cloud" },
         { "name": "Jira", "icon": "check_box" },
-        { "name": "Figma", "icon": "draw" }
+        { "name": "ClickUp", "icon": "task" }
       ]
     }
   ]
